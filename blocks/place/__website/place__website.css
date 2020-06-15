@@ -1,0 +1,11 @@
+.place__website{
+  align-self: flex-end;
+  margin-bottom: 4px;
+}
+
+@media screen and (max-width: 425px){
+  .place__website{
+    position: absolute;
+    visibility: hidden;
+  }
+}

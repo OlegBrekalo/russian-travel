@@ -1,0 +1,14 @@
+.cover__background{
+  height: 100%;
+  width: 100%;
+
+  position: absolute;
+  z-index: -1;
+
+  background-image: url('../../../images/cover-trains.jpg');
+  background-size: cover;
+  background-position: center;
+
+  opacity: 0.8;
+  transition: opacity 1s linear;
+}

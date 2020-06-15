@@ -1,0 +1,8 @@
+@media screen and (max-width: 425px){
+  .place__text-area{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
