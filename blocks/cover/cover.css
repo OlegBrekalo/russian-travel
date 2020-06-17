@@ -2,25 +2,51 @@
 @import url('./__subtitle/cover__subtitle.css');
 @import url('./__title/cover__title.css');
 @import url('./__overlay/cover__overlay.css');
+@import url('./__link/cover__link.css');
 
 .cover{
   position: relative;
-  margin: 90px auto 0 auto;
-  width: 92.5%;
+  margin: 90px 0 0 0;
+  width: 100%;
+  height: calc(100vw * .58);
   display: flex;
   align-items: center;
 }
 
+.cover::before{
+  content: " ";
+  background-image: url('../../images/cover-trains.jpg');
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+  opacity: 0.8;
+  transition: opacity 1s linear;
+}
+
+.cover:hover::before{
+  opacity: .2;
+}
 
 @media screen and (max-width: 1024px){
   .cover{
-    margin-top: 86px;
-    width: 100%;
+    height: calc(100vw * .626);
+  }
+}
+
+@media screen and (max-width: 768px){
+  .cover{
+    height: calc(100vw * .628);
   }
 }
 
 @media screen and (max-width: 425px){
   .cover{
-    margin-top: 68px;
+    margin-top: 67px;
   }
 }

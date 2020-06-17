@@ -1,13 +1,11 @@
 @import url('./__caption/lead__caption.css');
 @import url('./__image/lead__image.css');
-@import url('./__image-polka/lead__image-polka.css');
-@import url('./__image-road/lead__image-road.css');
 @import url('./__subtitle/lead__subtitle.css');
 @import url('./__title/lead__title.css');
 
 .lead{
-  margin: 65px auto 0 auto;
-  width: 77%;
+  margin: 64px auto 0 auto;
+  width: 83%;
 
   display: flex;
   flex-direction: column;

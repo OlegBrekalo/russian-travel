@@ -6,7 +6,7 @@
 
 .intro{
   margin: 97px auto 0 auto;
-  width: 77%;
+  width: 83%;
 
   display: flex;
   flex-direction: column;
@@ -16,21 +16,21 @@
 
 @media screen and (max-width: 1024px){
   .intro{
-    margin-top: 95px;
+    margin-top: 96px;
     width: 90.5%;
   }
 }
 
 @media screen and (max-width: 768px){
   .intro{
-    margin-top: 93px;
+    margin-top: 69px;
     width: 94%;
   }
 }
 
 @media screen and (max-width: 425px){
   .intro{
-    margin-top: 68px;
+    margin-top: 67px;
     width: 90%;
   }
 }

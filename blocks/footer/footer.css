@@ -1,10 +1,11 @@
 @import url('./__copyright/footer__copyright.css');
 @import url('./__link/footer__link.css');
 @import url('./__links/footer__links.css');
+@import url('./__links-item/footer__links-item.css');
 
 .footer{
-  margin: 90px auto 10px auto;
-  width: 92.5%;
+  margin: 92px auto 10px auto;
+  width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,14 +13,14 @@
 
 @media screen and (max-width: 1024px){
   .footer{
-    margin-top: 92px;
-    width: 90.5%;
+    margin-top: 94px;
+    width: 90.6%;
   }
 }
 
 @media screen and (max-width: 768px){
   .footer{
-    margin-top: 88px;
+    margin-top: 89px;
     width: 93.7%;
   }
 }

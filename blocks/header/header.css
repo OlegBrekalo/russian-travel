@@ -1,13 +1,15 @@
 @import url('./__logo/header__logo.css');
+@import url('./__lang-links/header__lang-links.css');
+@import url('./__lang-links-item/header__lang-links-item.css');
 @import url('./__lang-link/header__lang-link.css');
 @import url('./__lang-link/_checked/header__lang-link_checked.css');
 
 .header{
-  width: 92.5%;
+  width: 100%;
   height: 52px;
   margin: 28px auto 0 auto;
   display: grid;
-  grid-template-columns: 1fr repeat(2, min-content);
+  grid-template-columns: 1fr min-content;
 }
 
 @media screen and (max-width: 1024px){

@@ -7,14 +7,17 @@
 @import url('./__link/place__link.css');
 
 .place{
+  position: relative;
   width: 100%;
   margin: 0 auto 83px auto;
 
   display: grid;
   grid-template-columns: 47% minmax(380px, max-content);
   grid-template-rows: min-content 1fr;
-  grid-column-gap: 40px;
+  grid-column-gap: 38px;
   grid-row-gap: 43px;
+
+  overflow: hidden;
 }
 
 .place:last-child{
@@ -24,9 +27,8 @@
 @media screen and (max-width: 1024px){
   .place{
     grid-template-columns: 47.4% minmax(min-content, 456px);
-    margin-bottom: 89px;
+    margin-bottom: 90px;
     grid-column-gap: 33px;
-    grid-row-gap: 42px;
   }
 
 }
@@ -34,7 +36,7 @@
 @media screen and (max-width: 768px){
   .place{
     grid-template-columns: 47.4% minmax(min-content, 456px);
-    margin-bottom: 78px;
+    margin-bottom: 81px;
     grid-column-gap: 27px;
     grid-row-gap: 45px;
   }
@@ -46,6 +48,6 @@
     grid-template-rows: repeat(3, min-content);
     margin-bottom: 54px;
     grid-column-gap: 0;
-    grid-row-gap: 31px;
+    grid-row-gap: 30px;
   }
 }
