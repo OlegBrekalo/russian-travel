@@ -7,7 +7,7 @@
   width: 100%;
 }
 
-@media screen and (max-width: 1024px){
+@media screen and (max-width: 1210px){
   .photo-grid{
     width: 90.7%;
     margin-top: 94px;

@@ -9,6 +9,7 @@
   margin: 90px 0 0 0;
   width: 100%;
   height: calc(100vw * .58);
+  max-height: 744.2px;
   display: flex;
   align-items: center;
 }

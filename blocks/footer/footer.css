@@ -29,10 +29,6 @@
   .footer{
     flex-direction: column;
   }
-
-  .footer nav{
-    align-self: flex-start;
-  }
 }
 
 @media screen and (max-width: 520px){
